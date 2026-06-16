@@ -135,10 +135,49 @@ The project focuses on:
 * Analytics Engineer
 * Data Scientist
 * Reporting Analyst
-* Business Analyst
+* Business Analyst (Data-focused only)
 
 Roles outside the data-career pathway are excluded from analysis.
 
 ### Expected Business Value
 
 The combined data sources provide a foundation for analyzing global data-career opportunities, identifying high-demand skills, measuring salary potential, evaluating remote hiring trends, and generating career recommendations for entry-level and junior professionals.
+
+### Future Data Sources
+
+Potential future integrations include:
+- Indeed
+- LinkedIn Jobs
+- Glassdoor
+- Levels.fyi
+
+These are excluded from Version 1 to maintain project scope and API reliability.
+
+### Source Failure Handling
+
+If one source becomes unavailable:
+
+1. RemoteOK Failure: Remote analysis unavailable but salary and skill analysis continue.
+
+2. Adzuna Failure: Salary analysis becomes limited while remote and role analysis remain available.
+
+3. USAJobs Failure: Role metadata coverage decreases but overall analysis remains operational.
+
+4. World Bank Failure: Opportunity Score excludes economic indicators until refresh succeeds.
+
+### Field Extraction Matrix
+| Standard Field    | RemoteOK | Adzuna | USAJobs | World Bank |
+| ----------------- | -------- | ------ | ------- | ---------- |
+| job_id            | ✓        | ✓      | ✓       |            |
+| job_title         | ✓        | ✓      | ✓       |            |
+| company           | ✓        | ✓      |         |            |
+| country           | ✓        | ✓      | ✓       |            |
+| city              |          | ✓      | ✓       |            |
+| salary_min        |          | ✓      | ✓       |            |
+| salary_max        |          | ✓      | ✓       |            |
+| description       | ✓        | ✓      | ✓       |            |
+| remote_status     | ✓        | ✓      |         |            |
+| posted_date       | ✓        | ✓      | ✓       |            |
+| gdp_per_capita    |          |        |         | ✓          |
+| unemployment_rate |          |        |         | ✓          |
+| income_group      |          |        |         | ✓          |
