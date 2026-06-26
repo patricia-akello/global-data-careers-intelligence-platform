@@ -10,6 +10,7 @@ import requests
 from scripts.api_client import get_json
 from scripts.file_utils import current_timestamp, current_date_string, save_raw_json
 from scripts.logger import log_start, log_success, log_error, log_complete
+from scripts.payload_builder import build_payload
 
 
 API_URL = "https://remoteok.com/api"
@@ -43,14 +44,15 @@ def extract_remoteok_jobs():
 
         log_error(str(error))
 
-    payload = {
-        "source": "RemoteOK",
-        "extraction_date": current_timestamp(),
-        "record_count": len(data),
-        "total_errors": len(errors),
-        "errors": errors,
-        "data": data,
-    }
+    payload = build_payload(
+        source="RemoteOK",
+        data=data,
+        errors=errors,
+        metadata={
+            "record_count": len(data),
+            "api_url": API_URL,
+        },
+    )
 
     filename = f"remoteok_{current_date_string()}.json"
     output_path = save_raw_json(payload, filename)

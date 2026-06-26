@@ -14,6 +14,7 @@ from scripts.config import USAJOBS_EMAIL, USAJOBS_API_KEY, require_env_value
 from scripts.constants import USAJOBS_SEARCH_TERMS, REQUEST_DELAY_SECONDS
 from scripts.file_utils import current_timestamp, current_date_string, save_raw_json
 from scripts.logger import log_start, log_success, log_error, log_complete
+from scripts.payload_builder import build_payload
 
 
 RESULTS_PER_PAGE = 25
@@ -95,17 +96,17 @@ def extract_usajobs():
 
                 log_error(f"{search_term}, page {page}: {error}")
 
-    payload = {
-        "source": "USAJobs",
-        "extraction_date": current_timestamp(),
-        "search_terms": USAJOBS_SEARCH_TERMS,
-        "results_per_page": RESULTS_PER_PAGE,
-        "max_pages_per_term": MAX_PAGES_PER_TERM,
-        "successful_pages": len(extracted_pages),
-        "total_errors": len(errors),
-        "errors": errors,
-        "data": extracted_pages,
-    }
+    payload = build_payload(
+        source="USAJobs",
+        data=extracted_pages,
+        errors=errors,
+        metadata={
+            "search_terms": USAJOBS_SEARCH_TERMS,
+            "results_per_page": RESULTS_PER_PAGE,
+            "max_pages_per_term": MAX_PAGES_PER_TERM,
+            "successful_pages": len(extracted_pages),
+        },
+    )
 
     filename = f"usajobs_{current_date_string()}.json"
     output_path = save_raw_json(payload, filename)
