@@ -1,87 +1,60 @@
 """
-Extract raw job posting data from the Adzuna API.
+Adzuna API Extraction Script
 
-This script:
-1. Reads API credentials from .env
-2. Searches selected data-career roles
-3. Extracts multiple pages per role
-4. Saves raw JSON responses to data/raw/
-5. Records metadata and errors for auditability
+Collects job posting data from Adzuna and saves raw API responses
+using shared project utilities.
 """
 
-import json
-import os
 import time
-from datetime import datetime
-from pathlib import Path
 
 import requests
-from dotenv import load_dotenv
 
-load_dotenv()
+from scripts.api_client import get_json
+from scripts.config import ADZUNA_APP_ID, ADZUNA_APP_KEY, ADZUNA_COUNTRY, require_env_value
+from scripts.constants import DATA_CAREER_SEARCH_TERMS, REQUEST_DELAY_SECONDS
+from scripts.file_utils import current_timestamp, current_date_string, save_raw_json
+from scripts.logger import log_start, log_success, log_error, log_complete
 
-APP_ID = os.getenv("ADZUNA_APP_ID")
-APP_KEY = os.getenv("ADZUNA_APP_KEY")
-COUNTRY = os.getenv("ADZUNA_COUNTRY", "gb")
-
-RAW_DIR = Path("data/raw")
-
-SEARCH_TERMS = [
-    "Data Analyst",
-    "Business Intelligence Analyst",
-    "BI Analyst",
-    "Data Engineer",
-    "Analytics Engineer",
-    "Data Scientist",
-    "Reporting Analyst",
-    "Business Analyst",
-]
 
 MAX_PAGES_PER_TERM = 2
 RESULTS_PER_PAGE = 50
-REQUEST_DELAY_SECONDS = 1
 
 
 def validate_credentials():
     """Stop the script if Adzuna credentials are missing."""
-    if not APP_ID or not APP_KEY:
-        raise ValueError("Missing ADZUNA_APP_ID or ADZUNA_APP_KEY in .env file.")
+    require_env_value(ADZUNA_APP_ID, "ADZUNA_APP_ID")
+    require_env_value(ADZUNA_APP_KEY, "ADZUNA_APP_KEY")
 
 
-def fetch_page(search_term, page):
+def fetch_adzuna_page(search_term, page):
     """Fetch one page of Adzuna job results."""
-    url = f"https://api.adzuna.com/v1/api/jobs/{COUNTRY}/search/{page}"
+    url = f"https://api.adzuna.com/v1/api/jobs/{ADZUNA_COUNTRY}/search/{page}"
 
     params = {
-        "app_id": APP_ID,
-        "app_key": APP_KEY,
+        "app_id": ADZUNA_APP_ID,
+        "app_key": ADZUNA_APP_KEY,
         "what": search_term,
         "results_per_page": RESULTS_PER_PAGE,
         "content-type": "application/json",
     }
 
-    response = requests.get(url, params=params, timeout=30)
-    response.raise_for_status()
-    return response.json()
+    return get_json(url, params=params)
 
 
 def extract_adzuna_jobs():
-    """Extract Adzuna jobs and save the raw API archive."""
+    """Extract Adzuna jobs and save a raw JSON archive."""
     validate_credentials()
-    RAW_DIR.mkdir(parents=True, exist_ok=True)
-
-    today = datetime.now().strftime("%Y_%m_%d")
-    output_path = RAW_DIR / f"adzuna_{COUNTRY}_{today}.json"
+    log_start("Adzuna")
 
     extracted_pages = []
     errors = []
 
-    for search_term in SEARCH_TERMS:
+    for search_term in DATA_CAREER_SEARCH_TERMS:
         print(f"Extracting: {search_term}")
 
         for page in range(1, MAX_PAGES_PER_TERM + 1):
             try:
-                data = fetch_page(search_term, page)
+                data = fetch_adzuna_page(search_term, page)
                 jobs = data.get("results", [])
 
                 extracted_pages.append({
@@ -91,8 +64,7 @@ def extract_adzuna_jobs():
                     "raw_response": data,
                 })
 
-                print(f"  Page {page}: {len(jobs)} records")
-
+                log_success(f"Page {page}: {len(jobs)} records")
                 time.sleep(REQUEST_DELAY_SECONDS)
 
             except requests.exceptions.RequestException as error:
@@ -100,16 +72,16 @@ def extract_adzuna_jobs():
                     "search_term": search_term,
                     "page": page,
                     "error": str(error),
-                    "error_time": datetime.now().isoformat(),
+                    "error_time": current_timestamp(),
                 })
 
-                print(f"  Error on page {page}: {error}")
+                log_error(f"{search_term}, page {page}: {error}")
 
     payload = {
         "source": "Adzuna",
-        "country": COUNTRY,
-        "extraction_date": datetime.now().isoformat(),
-        "search_terms": SEARCH_TERMS,
+        "country": ADZUNA_COUNTRY,
+        "extraction_date": current_timestamp(),
+        "search_terms": DATA_CAREER_SEARCH_TERMS,
         "max_pages_per_term": MAX_PAGES_PER_TERM,
         "results_per_page": RESULTS_PER_PAGE,
         "successful_pages": len(extracted_pages),
@@ -118,12 +90,15 @@ def extract_adzuna_jobs():
         "data": extracted_pages,
     }
 
-    with open(output_path, "w", encoding="utf-8") as file:
-        json.dump(payload, file, indent=4, ensure_ascii=False)
+    filename = f"adzuna_{ADZUNA_COUNTRY}_{current_date_string()}.json"
+    output_path = save_raw_json(payload, filename)
 
-    print(f"Adzuna extraction completed: {output_path}")
-    print(f"Successful pages: {len(extracted_pages)}")
-    print(f"Errors: {len(errors)}")
+    log_complete(
+        source="Adzuna",
+        output_path=output_path,
+        successful_pages=len(extracted_pages),
+        errors=len(errors),
+    )
 
 
 if __name__ == "__main__":

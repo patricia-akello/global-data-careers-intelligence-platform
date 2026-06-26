@@ -1,26 +1,18 @@
 """
 RemoteOK API Extraction Script
 
-Purpose:
-Collect remote technology job postings from the RemoteOK API.
-
-This script supports later phases:
-- Remote hiring analysis
-- Geography analysis
-- Role classification
-- Skill extraction
-- Raw JSON archiving
+Collects remote technology job postings from RemoteOK and saves
+the raw API response using shared project utilities.
 """
-
-import json
-from datetime import datetime
-from pathlib import Path
 
 import requests
 
+from scripts.api_client import get_json
+from scripts.file_utils import current_timestamp, current_date_string, save_raw_json
+from scripts.logger import log_start, log_success, log_error, log_complete
+
 
 API_URL = "https://remoteok.com/api"
-RAW_DIR = Path("data/raw")
 
 
 def fetch_remoteok_jobs():
@@ -29,47 +21,45 @@ def fetch_remoteok_jobs():
         "User-Agent": "global-data-careers-intelligence-platform"
     }
 
-    response = requests.get(API_URL, headers=headers, timeout=30)
-    response.raise_for_status()
-    return response.json()
+    return get_json(API_URL, headers=headers)
 
 
 def extract_remoteok_jobs():
-    """Extract RemoteOK jobs and save the raw API archive."""
-    RAW_DIR.mkdir(parents=True, exist_ok=True)
-
-    today = datetime.now().strftime("%Y_%m_%d")
-    output_file = RAW_DIR / f"remoteok_{today}.json"
+    """Extract RemoteOK jobs and save a raw JSON archive."""
+    log_start("RemoteOK")
 
     errors = []
     data = []
 
     try:
         data = fetch_remoteok_jobs()
-        print(f"RemoteOK records extracted: {len(data)}")
+        log_success(f"Records extracted: {len(data)}")
 
     except requests.exceptions.RequestException as error:
         errors.append({
             "error": str(error),
-            "error_time": datetime.now().isoformat(),
+            "error_time": current_timestamp(),
         })
 
-        print(f"RemoteOK extraction failed: {error}")
+        log_error(str(error))
 
     payload = {
         "source": "RemoteOK",
-        "extraction_date": datetime.now().isoformat(),
+        "extraction_date": current_timestamp(),
         "record_count": len(data),
         "total_errors": len(errors),
         "errors": errors,
         "data": data,
     }
 
-    with open(output_file, "w", encoding="utf-8") as file:
-        json.dump(payload, file, indent=4, ensure_ascii=False)
+    filename = f"remoteok_{current_date_string()}.json"
+    output_path = save_raw_json(payload, filename)
 
-    print(f"RemoteOK extraction completed: {output_file}")
-    print(f"Errors: {len(errors)}")
+    log_complete(
+        source="RemoteOK",
+        output_path=output_path,
+        errors=len(errors),
+    )
 
 
 if __name__ == "__main__":

@@ -1,61 +1,33 @@
 """
 USAJobs API Extraction Script
 
-Purpose:
-Collect structured government job postings from the USAJobs Search API.
-
-This script supports later phases:
-- Role classification
-- Seniority classification
-- Skill extraction
-- Salary analysis
-- Metadata standardization
-
-Security:
-API credentials are loaded from the local .env file and are not committed to GitHub.
+Collects structured government job postings from the USAJobs Search API
+and saves raw API responses using shared project utilities.
 """
 
-import json
-import os
 import time
-from datetime import datetime
-from pathlib import Path
 
 import requests
-from dotenv import load_dotenv
 
+from scripts.api_client import get_json
+from scripts.config import USAJOBS_EMAIL, USAJOBS_API_KEY, require_env_value
+from scripts.constants import USAJOBS_SEARCH_TERMS, REQUEST_DELAY_SECONDS
+from scripts.file_utils import current_timestamp, current_date_string, save_raw_json
+from scripts.logger import log_start, log_success, log_error, log_complete
 
-# Load secrets from .env
-load_dotenv()
-
-USAJOBS_EMAIL = os.getenv("USAJOBS_EMAIL")
-USAJOBS_API_KEY = os.getenv("USAJOBS_API_KEY")
-
-RAW_DIR = Path("data/raw")
-
-SEARCH_TERMS = [
-    "Data Analyst",
-    "Business Intelligence",
-    "Data Engineer",
-    "Data Scientist",
-    "Business Analyst",
-]
 
 RESULTS_PER_PAGE = 25
 MAX_PAGES_PER_TERM = 2
-REQUEST_DELAY_SECONDS = 1
 
 
 def validate_credentials():
-    """Stop the script early if USAJobs credentials are missing."""
-    if not USAJOBS_EMAIL or not USAJOBS_API_KEY:
-        raise ValueError(
-            "Missing USAJOBS_EMAIL or USAJOBS_API_KEY. Add them to your .env file."
-        )
+    """Stop the script if USAJobs credentials are missing."""
+    require_env_value(USAJOBS_EMAIL, "USAJOBS_EMAIL")
+    require_env_value(USAJOBS_API_KEY, "USAJOBS_API_KEY")
 
 
 def build_headers():
-    """Build the required USAJobs authentication headers."""
+    """Build required USAJobs authentication headers."""
     return {
         "Host": "data.usajobs.gov",
         "User-Agent": USAJOBS_EMAIL,
@@ -77,29 +49,22 @@ def fetch_usajobs_page(search_term, page):
         "SortDirection": "desc",
     }
 
-    response = requests.get(
-        url,
+    return get_json(
+        url=url,
         headers=build_headers(),
         params=params,
-        timeout=30,
     )
-
-    response.raise_for_status()
-    return response.json()
 
 
 def extract_usajobs():
-    """Extract USAJobs data and save raw JSON archive."""
+    """Extract USAJobs data and save a raw JSON archive."""
     validate_credentials()
-    RAW_DIR.mkdir(parents=True, exist_ok=True)
-
-    today = datetime.now().strftime("%Y_%m_%d")
-    output_file = RAW_DIR / f"usajobs_{today}.json"
+    log_start("USAJobs")
 
     extracted_pages = []
     errors = []
 
-    for search_term in SEARCH_TERMS:
+    for search_term in USAJOBS_SEARCH_TERMS:
         print(f"Extracting: {search_term}")
 
         for page in range(1, MAX_PAGES_PER_TERM + 1):
@@ -117,8 +82,7 @@ def extract_usajobs():
                     "raw_response": data,
                 })
 
-                print(f"  Page {page}: {len(items)} records")
-
+                log_success(f"Page {page}: {len(items)} records")
                 time.sleep(REQUEST_DELAY_SECONDS)
 
             except requests.exceptions.RequestException as error:
@@ -126,15 +90,15 @@ def extract_usajobs():
                     "search_term": search_term,
                     "page": page,
                     "error": str(error),
-                    "error_time": datetime.now().isoformat(),
+                    "error_time": current_timestamp(),
                 })
 
-                print(f"  Error on page {page}: {error}")
+                log_error(f"{search_term}, page {page}: {error}")
 
     payload = {
         "source": "USAJobs",
-        "extraction_date": datetime.now().isoformat(),
-        "search_terms": SEARCH_TERMS,
+        "extraction_date": current_timestamp(),
+        "search_terms": USAJOBS_SEARCH_TERMS,
         "results_per_page": RESULTS_PER_PAGE,
         "max_pages_per_term": MAX_PAGES_PER_TERM,
         "successful_pages": len(extracted_pages),
@@ -143,12 +107,15 @@ def extract_usajobs():
         "data": extracted_pages,
     }
 
-    with open(output_file, "w", encoding="utf-8") as file:
-        json.dump(payload, file, indent=4, ensure_ascii=False)
+    filename = f"usajobs_{current_date_string()}.json"
+    output_path = save_raw_json(payload, filename)
 
-    print(f"USAJobs extraction completed: {output_file}")
-    print(f"Successful pages: {len(extracted_pages)}")
-    print(f"Errors: {len(errors)}")
+    log_complete(
+        source="USAJobs",
+        output_path=output_path,
+        successful_pages=len(extracted_pages),
+        errors=len(errors),
+    )
 
 
 if __name__ == "__main__":
