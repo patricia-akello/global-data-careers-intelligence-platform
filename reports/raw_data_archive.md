@@ -32,7 +32,7 @@ worldbank_YYYY_MM_DD.json
 
 Raw files must not be manually edited.
 Raw files must not be overwritten.
-Raw files must not be committed to GitHub.
+Raw API archives are excluded from version control through .gitignore because they are reproducible artifacts that can be regenerated from the extraction pipeline.
 All cleaning must happen after raw archiving.
 Raw files are immutable and serve as the system of record. All cleaning,
 normalization, enrichment, and transformation must be performed on copies of
