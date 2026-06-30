@@ -1,0 +1,297 @@
+country_code,country,region,income_group,gdp_per_capita,gdp_year,unemployment_rate,unemployment_year,extracted_date,source_file
+ABW,Aruba,Latin America & Caribbean,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+AFE,Africa Eastern and Southern,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+AFG,Afghanistan,"Middle East, North Africa, Afghanistan & Pakistan",Low income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+AFR,Africa,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+AFW,Africa Western and Central,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+AGO,Angola,Sub-Saharan Africa,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+ALB,Albania,Europe & Central Asia,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+AND,Andorra,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+ARB,Arab World,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+ARE,United Arab Emirates,"Middle East, North Africa, Afghanistan & Pakistan",High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+ARG,Argentina,Latin America & Caribbean,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+ARM,Armenia,Europe & Central Asia,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+ASM,American Samoa,East Asia & Pacific,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+ATG,Antigua and Barbuda,Latin America & Caribbean,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+AUS,Australia,East Asia & Pacific,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+AUT,Austria,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+AZE,Azerbaijan,Europe & Central Asia,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+BDI,Burundi,Sub-Saharan Africa,Low income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+BEA,East Asia & Pacific (IBRD-only countries),Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+BEC,Europe & Central Asia (IBRD-only countries),Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+BEL,Belgium,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+BEN,Benin,Sub-Saharan Africa,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+BFA,Burkina Faso,Sub-Saharan Africa,Low income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+BGD,Bangladesh,South Asia,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+BGR,Bulgaria,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+BHI,IBRD countries classified as high income,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+BHR,Bahrain,"Middle East, North Africa, Afghanistan & Pakistan",High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+BHS,"Bahamas, The",Latin America & Caribbean,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+BIH,Bosnia and Herzegovina,Europe & Central Asia,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+BLA,Latin America & the Caribbean (IBRD-only countries),Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+BLR,Belarus,Europe & Central Asia,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+BLZ,Belize,Latin America & Caribbean,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+BMN,"Middle East, North Africa, Afghanistan & Pakistan (IBRD only)",Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+BMU,Bermuda,North America,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+BOL,Bolivia,Latin America & Caribbean,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+BRA,Brazil,Latin America & Caribbean,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+BRB,Barbados,Latin America & Caribbean,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+BRN,Brunei Darussalam,East Asia & Pacific,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+BSS,Sub-Saharan Africa (IBRD-only countries),Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+BTN,Bhutan,South Asia,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+BWA,Botswana,Sub-Saharan Africa,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+CAA,Sub-Saharan Africa (IFC classification),Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+CAF,Central African Republic,Sub-Saharan Africa,Low income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+CAN,Canada,North America,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+CEA,East Asia and the Pacific (IFC classification),Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+CEB,Central Europe and the Baltics,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+CEU,Europe and Central Asia (IFC classification),Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+CHE,Switzerland,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+CHI,Channel Islands,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+CHL,Chile,Latin America & Caribbean,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+CHN,China,East Asia & Pacific,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+CIV,Cote d'Ivoire,Sub-Saharan Africa,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+CLA,Latin America and the Caribbean (IFC classification),Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+CME,Middle East and North Africa (IFC classification),Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+CMR,Cameroon,Sub-Saharan Africa,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+COD,"Congo, Dem. Rep.",Sub-Saharan Africa,Low income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+COG,"Congo, Rep.",Sub-Saharan Africa,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+COL,Colombia,Latin America & Caribbean,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+COM,Comoros,Sub-Saharan Africa,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+CPV,Cabo Verde,Sub-Saharan Africa,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+CRI,Costa Rica,Latin America & Caribbean,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+CSA,South Asia (IFC classification),Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+CSS,Caribbean small states,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+CUB,Cuba,Latin America & Caribbean,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+CUW,Curacao,Latin America & Caribbean,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+CYM,Cayman Islands,Latin America & Caribbean,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+CYP,Cyprus,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+CZE,Czechia,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+DEA,East Asia & Pacific (IDA-eligible countries),Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+DEC,Europe & Central Asia (IDA-eligible countries),Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+DEU,Germany,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+DJI,Djibouti,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+DLA,Latin America & the Caribbean (IDA-eligible countries),Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+DMA,Dominica,Latin America & Caribbean,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+DMN,"Middle East, North Africa, Afghanistan & Pakistan (IDA total)",Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+DNK,Denmark,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+DNS,IDA countries in Sub-Saharan Africa not classified as fragile situations,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+DOM,Dominican Republic,Latin America & Caribbean,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+DSA,South Asia (IDA-eligible countries),Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+DSF,IDA countries in Sub-Saharan Africa classified as fragile situations,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+DSS,Sub-Saharan Africa (IDA-eligible countries),Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+DZA,Algeria,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+EAP,East Asia & Pacific (excluding high income),Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+EAR,Early-demographic dividend,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+EAS,East Asia & Pacific,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+ECA,Europe & Central Asia (excluding high income),Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+ECS,Europe & Central Asia,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+ECU,Ecuador,Latin America & Caribbean,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+EGY,"Egypt, Arab Rep.","Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+EMU,Euro area,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+ERI,Eritrea,Sub-Saharan Africa,Low income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+ESP,Spain,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+EST,Estonia,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+ETH,Ethiopia,Sub-Saharan Africa,Not classified,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+EUU,European Union,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+FCS,Fragile and conflict affected situations,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+FIN,Finland,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+FJI,Fiji,East Asia & Pacific,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+FRA,France,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+FRO,Faroe Islands,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+FSM,"Micronesia, Fed. Sts.",East Asia & Pacific,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+FXS,"IDA countries classified as fragile situations, excluding Sub-Saharan Africa",Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+GAB,Gabon,Sub-Saharan Africa,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+GBR,United Kingdom,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+GEO,Georgia,Europe & Central Asia,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+GHA,Ghana,Sub-Saharan Africa,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+GIB,Gibraltar,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+GIN,Guinea,Sub-Saharan Africa,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+GMB,"Gambia, The",Sub-Saharan Africa,Low income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+GNB,Guinea-Bissau,Sub-Saharan Africa,Low income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+GNQ,Equatorial Guinea,Sub-Saharan Africa,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+GRC,Greece,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+GRD,Grenada,Latin America & Caribbean,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+GRL,Greenland,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+GTM,Guatemala,Latin America & Caribbean,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+GUM,Guam,East Asia & Pacific,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+GUY,Guyana,Latin America & Caribbean,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+HIC,High income,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+HKG,"Hong Kong SAR, China",East Asia & Pacific,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+HND,Honduras,Latin America & Caribbean,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+HPC,Heavily indebted poor countries (HIPC),Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+HRV,Croatia,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+HTI,Haiti,Latin America & Caribbean,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+HUN,Hungary,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+IBB,"IBRD, including blend",Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+IBD,IBRD only,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+IBT,IDA & IBRD total,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+IDA,IDA total,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+IDB,IDA blend,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+IDN,Indonesia,East Asia & Pacific,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+IDX,IDA only,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+IMN,Isle of Man,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+IND,India,South Asia,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+INX,Not classified,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+IRL,Ireland,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+IRN,"Iran, Islamic Rep.","Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+IRQ,Iraq,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+ISL,Iceland,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+ISR,Israel,"Middle East, North Africa, Afghanistan & Pakistan",High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+ITA,Italy,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+JAM,Jamaica,Latin America & Caribbean,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+JOR,Jordan,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+JPN,Japan,East Asia & Pacific,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+KAZ,Kazakhstan,Europe & Central Asia,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+KEN,Kenya,Sub-Saharan Africa,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+KGZ,Kyrgyz Republic,Europe & Central Asia,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+KHM,Cambodia,East Asia & Pacific,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+KIR,Kiribati,East Asia & Pacific,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+KNA,St. Kitts and Nevis,Latin America & Caribbean,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+KOR,"Korea, Rep.",East Asia & Pacific,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+KWT,Kuwait,"Middle East, North Africa, Afghanistan & Pakistan",High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+LAC,Latin America & Caribbean (excluding high income),Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+LAO,Lao PDR,East Asia & Pacific,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+LBN,Lebanon,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+LBR,Liberia,Sub-Saharan Africa,Low income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+LBY,Libya,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+LCA,St. Lucia,Latin America & Caribbean,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+LCN,Latin America & Caribbean,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+LDC,Least developed countries: UN classification,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+LIC,Low income,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+LIE,Liechtenstein,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+LKA,Sri Lanka,South Asia,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+LMC,Lower middle income,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+LMY,Low & middle income,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+LSO,Lesotho,Sub-Saharan Africa,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+LTE,Late-demographic dividend,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+LTU,Lithuania,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+LUX,Luxembourg,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+LVA,Latvia,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+MAC,"Macao SAR, China",East Asia & Pacific,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+MAF,St. Martin (French part),Latin America & Caribbean,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+MAR,Morocco,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+MCO,Monaco,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+MDA,Moldova,Europe & Central Asia,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+MDE,Middle East (developing only),Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+MDG,Madagascar,Sub-Saharan Africa,Low income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+MDV,Maldives,South Asia,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+MEA,"Middle East, North Africa, Afghanistan & Pakistan",Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+MEX,Mexico,Latin America & Caribbean,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+MHL,Marshall Islands,East Asia & Pacific,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+MIC,Middle income,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+MKD,North Macedonia,Europe & Central Asia,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+MLI,Mali,Sub-Saharan Africa,Low income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+MLT,Malta,"Middle East, North Africa, Afghanistan & Pakistan",High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+MMR,Myanmar,East Asia & Pacific,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+MNA,"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+MNE,Montenegro,Europe & Central Asia,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+MNG,Mongolia,East Asia & Pacific,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+MNP,Northern Mariana Islands,East Asia & Pacific,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+MOZ,Mozambique,Sub-Saharan Africa,Low income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+MRT,Mauritania,Sub-Saharan Africa,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+MUS,Mauritius,Sub-Saharan Africa,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+MWI,Malawi,Sub-Saharan Africa,Low income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+MYS,Malaysia,East Asia & Pacific,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+NAC,North America,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+NAF,North Africa,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+NAM,Namibia,Sub-Saharan Africa,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+NCL,New Caledonia,East Asia & Pacific,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+NER,Niger,Sub-Saharan Africa,Low income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+NGA,Nigeria,Sub-Saharan Africa,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+NIC,Nicaragua,Latin America & Caribbean,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+NLD,Netherlands,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+NOR,Norway,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+NPL,Nepal,South Asia,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+NRS,Non-resource rich Sub-Saharan Africa countries,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+NRU,Nauru,East Asia & Pacific,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+NXS,"IDA countries not classified as fragile situations, excluding Sub-Saharan Africa",Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+NZL,New Zealand,East Asia & Pacific,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+OED,OECD members,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+OMN,Oman,"Middle East, North Africa, Afghanistan & Pakistan",High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+OSS,Other small states,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+PAK,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+PAN,Panama,Latin America & Caribbean,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+PER,Peru,Latin America & Caribbean,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+PHL,Philippines,East Asia & Pacific,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+PLW,Palau,East Asia & Pacific,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+PNG,Papua New Guinea,East Asia & Pacific,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+POL,Poland,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+PRE,Pre-demographic dividend,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+PRI,Puerto Rico (US),Latin America & Caribbean,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+PRK,"Korea, Dem. People's Rep.",East Asia & Pacific,Low income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+PRT,Portugal,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+PRY,Paraguay,Latin America & Caribbean,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+PSE,West Bank and Gaza,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+PSS,Pacific island small states,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+PST,Post-demographic dividend,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+PYF,French Polynesia,East Asia & Pacific,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+QAT,Qatar,"Middle East, North Africa, Afghanistan & Pakistan",High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+ROU,Romania,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+RRS,Resource rich Sub-Saharan Africa countries,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+RUS,Russian Federation,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+RWA,Rwanda,Sub-Saharan Africa,Low income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+SAS,South Asia,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+SAU,Saudi Arabia,"Middle East, North Africa, Afghanistan & Pakistan",High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+SDN,Sudan,Sub-Saharan Africa,Low income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+SEN,Senegal,Sub-Saharan Africa,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+SGP,Singapore,East Asia & Pacific,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+SLB,Solomon Islands,East Asia & Pacific,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+SLE,Sierra Leone,Sub-Saharan Africa,Low income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+SLV,El Salvador,Latin America & Caribbean,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+SMR,San Marino,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+SOM,"Somalia, Fed. Rep.",Sub-Saharan Africa,Low income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+SRB,Serbia,Europe & Central Asia,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+SSA,Sub-Saharan Africa (excluding high income),Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+SSD,South Sudan,Sub-Saharan Africa,Low income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+SSF,Sub-Saharan Africa,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+SST,Small states,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+STP,Sao Tome and Principe,Sub-Saharan Africa,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+SUR,Suriname,Latin America & Caribbean,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+SVK,Slovak Republic,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+SVN,Slovenia,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+SWE,Sweden,Europe & Central Asia,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+SWZ,Eswatini,Sub-Saharan Africa,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+SXM,Sint Maarten (Dutch part),Latin America & Caribbean,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+SXZ,Sub-Saharan Africa excluding South Africa,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+SYC,Seychelles,Sub-Saharan Africa,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+SYR,Syrian Arab Republic,"Middle East, North Africa, Afghanistan & Pakistan",Low income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+TCA,Turks and Caicos Islands,Latin America & Caribbean,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+TCD,Chad,Sub-Saharan Africa,Low income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+TEA,East Asia & Pacific (IDA & IBRD countries),Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+TEC,Europe & Central Asia (IDA & IBRD countries),Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+TGO,Togo,Sub-Saharan Africa,Low income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+THA,Thailand,East Asia & Pacific,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+TJK,Tajikistan,Europe & Central Asia,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+TKM,Turkmenistan,Europe & Central Asia,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+TLA,Latin America & the Caribbean (IDA & IBRD countries),Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+TLS,Timor-Leste,East Asia & Pacific,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+TMN,"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+TON,Tonga,East Asia & Pacific,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+TSA,South Asia (IDA & IBRD),Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+TSS,Sub-Saharan Africa (IDA & IBRD countries),Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+TTO,Trinidad and Tobago,Latin America & Caribbean,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+TUN,Tunisia,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+TUR,Turkiye,Europe & Central Asia,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+TUV,Tuvalu,East Asia & Pacific,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+TZA,Tanzania,Sub-Saharan Africa,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+UGA,Uganda,Sub-Saharan Africa,Low income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+UKR,Ukraine,Europe & Central Asia,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+UMC,Upper middle income,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+URY,Uruguay,Latin America & Caribbean,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+USA,United States,North America,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+UZB,Uzbekistan,Europe & Central Asia,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+VCT,St. Vincent and the Grenadines,Latin America & Caribbean,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+VEN,"Venezuela, RB",Latin America & Caribbean,Not classified,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+VGB,British Virgin Islands,Latin America & Caribbean,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+VIR,Virgin Islands (U.S.),Latin America & Caribbean,High income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+VNM,Viet Nam,East Asia & Pacific,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+VUT,Vanuatu,East Asia & Pacific,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+WLD,World,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+WSM,Samoa,East Asia & Pacific,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+XKX,Kosovo,Europe & Central Asia,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+XZN,Sub-Saharan Africa excluding South Africa and Nigeria,Aggregates,Aggregates,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+YEM,"Yemen, Rep.","Middle East, North Africa, Afghanistan & Pakistan",Low income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+ZAF,South Africa,Sub-Saharan Africa,Upper middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+ZMB,Zambia,Sub-Saharan Africa,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
+ZWE,Zimbabwe,Sub-Saharan Africa,Lower middle income,,,,,2026-06-26T20:33:23.897488,worldbank_2026_06_26.json
